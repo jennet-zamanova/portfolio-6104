@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
-  text: "TODO: Subtitle"
-  tagline: "TODO: Tagline"
+  name: "Jennet's potrfolio"
+  text: "Cool 6.104 things"
+  tagline: "Let's hope one day I'll be creative enough to come up with an actual tagline"
   actions:
     - theme: brand
       text: Template Repository
