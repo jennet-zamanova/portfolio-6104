@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Jennet's potrfolio"
+  name: "Jennet's portfolio"
   text: "Cool 6.104 things"
   tagline: "Let's hope one day I'll be creative enough to come up with an actual tagline"
   actions:
@@ -20,6 +20,7 @@ features:
     link: /blogs
   - title: Assignments
     details: All of your assignments will be posted on your portfolio.
+    link: /assignments
   - title: About Me
     details: You'll implement a small bio about yourself on here!
     link: /about
