@@ -16,7 +16,7 @@ layout: doc
 Here are some notes I took:
 | 1 | 2 | 3 |
 |:-:|:-:|:-:|
-|![Notes from the interview with Ms. G](/../assets/images/a1-interview-notes-1.jpg){style="width: 100"}|![Continued notes from the interview with Ms. G](/../assets/images/a1-interview-notes-2.jpg){style="width: 100"}|![Notes from the interview with Mr. D](/../assets/images/a1-interview-notes-2.jpg){style="width: 100"}|
+|![Notes from the interview with Ms. G](/../assets/images/a1/a1-interview-notes-1.jpg){style="width: 100"}|![Continued notes from the interview with Ms. G](/../assets/images/a1/a1-interview-notes-2.jpg){style="width: 100"}|![Notes from the interview with Mr. D](/../assets/images/a1/a1-interview-notes-2.jpg){style="width: 100"}|
 
 ## Interviews
 
