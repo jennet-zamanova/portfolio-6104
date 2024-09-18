@@ -109,7 +109,8 @@ The intended audience is _international students_ who are trying to assimilate t
 
 ## VSD analysis
 
-**Stakeholders**  
+### Stakeholders
+
 **Observation 1:** Stakeholders’ Roles and Credibility
 
 _Criterion:_ Credibility Assessment  
@@ -124,7 +125,8 @@ _Prompt:_ How might the platform's design affect children's engagement and the r
 _Features:_ No age verification currently or age-appropriate filter currently.  
 _Design Response_ (more like thoughts): Children are less inclined to engage in thorough fact-checking by clicking on links and are more likely to be drawn to interactive features like scores, perceiving them as part of a game. This would ensure that kids are learning at least a little about getting truthful information. However, the exposure to a wide range of information can be harmful, from trivial misinformation (e.g., myths like Santa Claus) to serious content (e.g., political or religious matters). Therefore, it is crucial to carefully curate the information displayed to avoid potential negative impacts. A dedicated "tweens mode" could address these issues by providing a safer, age-appropriate experience. However, ensuring robust verification without making it overly burdensome remains a challenge. Simple age verification methods are insufficient, while requiring government-issued documents may be impractical for widespread use (at least before the platform is so widespread that users are willing to take extra steps to conitunie using it).
 
-**Time**  
+### Time
+
 **Observation 3:** The Long Now
 
 Criterion: User Dependence on Credibility Metrics
@@ -132,7 +134,8 @@ _Prompt:_ What are the potential risks of users becoming too reliant on credibil
 _Features:_ The platform emphasizes credibility and links but does not address potential over-dependence on these metrics.  
 _Design Response:_ Introduce educational prompts and content that encourage users to critically evaluate information beyond the provided credibility scores. Develop features that foster critical thinking and independent verification, such as user guides on assessing credibility and diverse perspectives.
 
-**Pervasiveness**  
+### Pervasiveness
+
 **Observation 4:** Cultural Sensitivities and Post Types
 
 Criterion: Accounting for Culture
@@ -140,7 +143,8 @@ _Prompt:_ How should the platform handle content to respect cultural sensitiviti
 _Features:_ We brainstormed a feature that accounts for cultural sensitivities.  
 _Design Response:_ Pay more attention to incorporating cultural sensitivity filters that adapt content visibility based on user cultural backgrounds and preferences. Additionally, create options for users to customize their content feed to align with their cultural sensitivities. This approach ensures that the platform remains respectful and relevant to diverse user groups.
 
-**Values**  
+### Values
+
 _fairness, trust, security_
 
 **Observation 5:** Value Tension: Privacy / Political realities + Indirect stakeholders
@@ -154,50 +158,38 @@ Moreover, we could just ask for backgorund information verification if the user 
 
 ## Storyboarding and sketching
 
-<!-- I, as creator, want to share factually accurate info and let people continue watching your content without leaving the app -> cite! User comes wtaches content, gets curious, goes to the link, verifies, comes back, reports as true, continues watching, creator's credibility and # of views increases -- could also add search videos with the linked articles to get a different explanation or point of view
-
-I, as consumer, looking for a suncscreen to buy because I'm going to the beach soon. I go to TrueTide to get non-sponsored content. i watch video from chemist, then from dermatologist. But then I saw a video that did not make sense and the article says the reverse, so I report it. I listened to the derm and got my sunscreen. Im sitting at the beach and receive notification that video I reported is removed and was actually factually inaccurate. I get a analytical owl badge and Im happy I helped to stop spreading of misinformation! (probably will need to be specific on when we want to incorporate panel of experts vs moderators)
-
-Everyone is talking about election in US and I heard a lot about indecision24. I, as consumer, wonder what other people think about it, so I do the search with location set to Boston. I get videos about democrats' view especially in MA, next video is however from republicans' pont of view and why they think their nominee is better. Now, I see why it's indecision and try to be more open to conversation when people talk to me about elections! -->
-
-<!-- I, as creator, want to share factually accurate info and let people continue watching your content without leaving the app -> cite! creator's credibility and # of views increases -- could also add search videos with the linked articles to get a different explanation or point of view -->
-
 ### Flow 1
 
-|                               Interesting topic!                               |                            Lemme share with others interested in space on TrueTide!                             |
-| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
-| ![Big Bang theory is so cool](/../assets/images/a2/storyboarding/creator1.jpg) | ![I should share with others interested in space on TrueTide!](/../assets/images/a2/storyboarding/creator2.jpg) |
-|                           Big Bang theory is so cool                           |                           I should share with others interested in space on TrueTide!                           |
+|                  Interesting topic!                  |  Lemme share with others interested in space on TrueTide!   |
+| :--------------------------------------------------: | :---------------------------------------------------------: |
+| ![](/../assets/images/a2/storyboarding/creator1.jpg) |    ![](/../assets/images/a2/storyboarding/creator2.jpg)     |
+|              Big Bang theory is so cool              | I should share with others interested in space on TrueTide! |
 
-|                                            Cite so others can see!                                             |                 Now users will not leave my channel and will continue learning about space!                  |
-| :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
-| ![Cite the source I learned this from so others can see too!](/../assets/images/a2/storyboarding/creator3.jpg) | ![My credibility score is so high and I got so many views!](/../assets/images/a2/storyboarding/creator3.jpg) |
-|                           Cite the source I learned this from so others can see too                            |                           My credibility score is so high and I got so many views!                           |
-
-<!-- I, am a consumer and chemistry student, looking for a suncscreen to buy because I'm going to the beach soon. I go to TrueTide to get non-sponsored content. i watch video from chemist, then from dermatologist. But then I saw a video that did not make sense and the article says the reverse, so I report it. I listened to the derm and got my sunscreen. Im sitting at the beach and receive notification that video I reported is removed and was actually factually inaccurate. I get a analytical owl badge and Im happy I helped to stop spreading of misinformation! (probably will need to be specific on when we want to incorporate panel of experts vs moderators) -->
+|                  Cite so others can see!                  | Now users will not leave my channel and will continue learning about space! |
+| :-------------------------------------------------------: | :-------------------------------------------------------------------------: |
+|   ![](/../assets/images/a2/storyboarding/creator3.jpg)    |            ![](/../assets/images/a2/storyboarding/creator3.jpg)             |
+| Cite the source I learned this from so others can see too |          My credibility score is so high and I got so many views!           |
 
 ### Flow 2
 
-|                                                  I need new sunscreen!                                                   |                                                           Nonsponsored content from derms and cosmetology chemists on TrueTide                                                           |                                     Ineteresting video but sounds wrong... report                                      |
-| :----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-| ![Chemistry student planning vacation, remembers he needs a sunscreen](/../assets/images/a2/storyboarding/consumer1.jpg) | ![Let me search non-sponsored reviews on sunscreens on TrueTide ... wow so many videos from dermatologists and cosmetology chemsists ](/../assets/images/a2/storyboarding/consumer2.jpg) | ![This video sounds wrong, we learned the opposite! Lemme report it](/../assets/images/a2/storyboarding/consumer3.jpg) |
-|                           Chemistry student planning vacation, remembers he needs a sunscreen                            |                            Let me search non-sponsored reviews on sunscreens on TrueTide ... wow so many videos from dermatologists and cosmetology chemsists                            |                           This video sounds wrong, we learned the opposite! Lemme report it                            |
+|                        I need new sunscreen!                        |                                Nonsponsored content from derms and cosmetology chemists on TrueTide                                |           Ineteresting video but sounds wrong... report           |
+| :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+|        ![](/../assets/images/a2/storyboarding/consumer1.jpg)        |                                       ![](/../assets/images/a2/storyboarding/consumer2.jpg)                                        |       ![](/../assets/images/a2/storyboarding/consumer3.jpg)       |
+| Chemistry student planning vacation, remembers he needs a sunscreen | Let me search non-sponsored reviews on sunscreens on TrueTide ... wow so many videos from dermatologists and cosmetology chemsists | This video sounds wrong, we learned the opposite! Lemme report it |
 
-|                                                                     Notification on the beach?                                                                     |                                                              New Badge!                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
-| ![I'm on the beach using the new sunscreen recommended by a dermatologist, but I get notification from TrueTide](/../assets/images/a2/storyboarding/consumer4.jpg) | ![I was right the video was misleading and it was removed. Now I have a new badge!](/../assets/images/a2/storyboarding/consumer5.jpg) |
-|                           I'm on the beach using the new sunscreen recommended by a dermatologist, but I get notification from TrueTide                            |                           I was right the video was misleading and it was removed. Now I have a new badge!                            |
-
-<!-- Everyone is talking about election in US and I heard a lot about indecision24. I, as consumer, wonder what other people think about it, so I do the search with location set to Boston. I get videos about democrats' view especially in MA, next video is however from republicans' pont of view and why they think their nominee is better. Now, I see why it's indecision and try to be more open to conversation when people talk to me about elections! -->
+|                                          Notification on the beach?                                           |                                    New Badge!                                    |
+| :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+|                             ![](/../assets/images/a2/storyboarding/consumer4.jpg)                             |              ![](/../assets/images/a2/storyboarding/consumer5.jpg)               |
+| I'm on the beach using the new sunscreen recommended by a dermatologist, but I get notification from TrueTide | I was right the video was misleading and it was removed. Now I have a new badge! |
 
 ### Flow 3
 
-|                                                           Indecision24                                                            |                                                         Lemme see what the big deal is on Truetide                                                          |
-| :-------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![I'm a new international student and everyone is talking about indecision24 ](/../assets/images/a2/storyboarding/diversity1.jpg) | ![I wonder what other people think about it, so I do the search on TrueTide with location set to Boston](/../assets/images/a2/storyboarding/diversity2.jpg) |
-|                            I'm a new international student and everyone is talking about indecision24                             |                            I wonder what other people think about it, so I do the search on TrueTide with location set to Boston                            |
+|                                Indecision24                                |                              Lemme see what the big deal is on Truetide                               |
+| :------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+|           ![](/../assets/images/a2/storyboarding/diversity1.jpg)           |                        ![](/../assets/images/a2/storyboarding/diversity2.jpg)                         |
+| I'm a new international student and everyone is talking about indecision24 | I wonder what other people think about it, so I do the search on TrueTide with location set to Boston |
 
-|            After I set my location to be Boston I first get a post from a left-leaning person             |                                                After I swipe I get a post from a right-leaning person                                                 |                                                                             Indecision!                                                                              |
-| :-------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![I get videos about democrats' view especially in MA](/../assets/images/a2/storyboarding/diversity3.jpg) | ![next video is however from republicans' pont of view and why they think their nominee is better](/../assets/images/a2/storyboarding/diversity4.jpg) | ![Now, I see why it's indecision and try to be more open to conversation when people talk to me about elections!](/../assets/images/a2/storyboarding/diversity5.jpg) |
-|                            I get videos about democrats' view especially in MA                            |                            next video is however from republicans' pont of view and why they think their nominee is better                            |                            Now, I see why it's indecision and try to be more open to conversation when people talk to me about elections!                            |
+| After I set my location to be Boston I first get a post from a left-leaning person |                     After I swipe I get a post from a right-leaning person                      |                                                  Indecision!                                                   |
+| :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+|               ![](/../assets/images/a2/storyboarding/diversity3.jpg)               |                     ![](/../assets/images/a2/storyboarding/diversity4.jpg)                      |                             ![](/../assets/images/a2/storyboarding/diversity5.jpg)                             |
+|                I get videos about democrats' view especially in MA                 | next video is however from republicans' pont of view and why they think their nominee is better | Now, I see why it's indecision and try to be more open to conversation when people talk to me about elections! |
