@@ -177,7 +177,9 @@ There are more that can be added but it's hard to explain without user interacti
 
 ## Wireframes
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/SIYbJMj5eDb9jAKb6YFZE8/TrueTide---A3---Jennet-Zamanova?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/SIYbJMj5eDb9jAKb6YFZE8/TrueTide---A3---Jennet-Zamanova?node-id=0-1&embed-host=share" allowfullscreen></iframe> -->
+
+[Basic WireFrame for TrueTide](https://www.figma.com/design/SIYbJMj5eDb9jAKb6YFZE8/TrueTide---A3---Jennet-Zamanova?node-id=0-1&t=rVMC7bmGgMxXKHUL-1)
 
 ## Design tradeoffs
 
