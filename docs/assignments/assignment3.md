@@ -7,10 +7,10 @@ layout: doc
 
 ## TrueTide
 
-**TrueTide** is designed for _international students_ navigating new environments and cultures. Adjusting to life in a new country can be overwhelming, and students often struggle to find _accurate, culturally relevant_ information. **TrueTide** helps bridge that gap by providing a _diverse_ range of perspectives on everything from national policies to local slang and customs.
+**TrueTide** is designed for _`international students`_ navigating new environments and cultures. Adjusting to life in a new country can be overwhelming, and students often struggle to find _`accurate`, `culturally relevant`_ information. **TrueTide** helps bridge that gap by providing a _`diverse`_ range of perspectives on everything from national policies to local slang and customs.
 
-The app's key feature is its **DualView**, which allows users to see opposing viewpoints on controversial topics, fostering critical thinking.
-To support responsible information-sharing, **TrueTide** offers _easy-to-use_ fact-checking tools and recommends relevant **citations** to users as they post content, making it simple to back up information. Additionally, the app uses a _community-driven_ **review** system that helps users verify the credibility of content, encouraging accountability and collaboration. With features like **customized feeds** that adapt to cultural contexts, **TrueTide** offers a trusted and culturally aware platform, easing the transition for students as they learn more about their new surroundings.
+The app's key feature is its **`DualView`**, which allows users to see opposing viewpoints on controversial topics, fostering critical thinking.
+To support responsible information-sharing, **TrueTide** offers _`easy-to-use`_ fact-checking tools and recommends relevant **`Citations`** to users as they post content, making it simple to back up information. Additionally, the app uses a _community-driven_ **`Review`** system that helps users verify the credibility of content, encouraging accountability and collaboration. With features like _customized_ **`Feeds`** that adapt to cultural contexts, **TrueTide** offers a trusted and culturally aware platform, easing the transition for students as they learn more about their new surroundings.
 
 ## Functional design
 
@@ -25,8 +25,8 @@ To support responsible information-sharing, **TrueTide** offers _easy-to-use_ fa
 used: **set** String  
 userInfo: `used` -> **one** `<String, Boolean>`  
 **Actions:**  
-`register` (name, pass: String, out user: User) -- create new user.  
-`authenticate` (name, pass: String, out user: User) -- authenticate the user if correct pair is given.
+`register` (name, pass: String, out user: User) — create new user.  
+`authenticate` (name, pass: String, out user: User) — authenticate the user if correct pair is given.
 
 #### 2
 
@@ -36,9 +36,9 @@ userInfo: `used` -> **one** `<String, Boolean>`
 **State:**  
 `sessions`: `s` Session -> **one** `user` User  
 **Actions:**  
-`startSession(user: User, out s: Session)` -- Begins a session for the user.  
-`getUser (s: Session, out user: User)` -- give the user given the session.  
-`endSession(s: Session)` -- Ends the session.
+`startSession(user: User, out s: Session)` — Begins a session for the user.  
+`getUser (s: Session, out user: User)` — give the user given the session.  
+`endSession(s: Session)` — Ends the session.
 
 <!-- (could be initiated by some criteria like last activity and whether user is trying to access sensitive information) -->
 
@@ -50,8 +50,8 @@ userInfo: `used` -> **one** `<String, Boolean>`
 **State:**  
 `ContentLabel`: `Content` -> set String (tags for the content)  
 **Actions:**  
-`upload(input: Media, out item: Content)` -- Creates new content from user input. (also will make integration testing way simpler)
-`addLabel(item: Content, labels: set String)` -- add labels to the content (possibly location, general topic, etc.).  
+`upload(input: Media, out item: Content)` — Creates new content from user input. (also will make integration testing way simpler)
+`addLabel(item: Content, labels: set String)` — add labels to the content (possibly location, general topic, etc.).  
 `share(item: Content, out url: URL)` — Shares content and generates a URL to view the content. (may remove)
 
 (international students learn more about their country)
@@ -64,11 +64,13 @@ userInfo: `used` -> **one** `<String, Boolean>`
 **State:**  
 `Citations`: `Content` -> set String  
 **Actions:**  
-`getCitations(item: Content, out citations: set Strings)` -- Suggests citation sources for a piece of content.  
-`addCitations(item: Content, citations: set Strings)` -- Adds citations to content.  
-`openCitation(citation: String)` -- opens a citation link in the webapp.
+`getCitations(item: Content, out citations: set Strings)` — Suggests citation sources for a piece of content.  
+`addCitations(item: Content, citations: set Strings)` — Adds citations to content.  
+`openCitation(citation: String)` — opens a citation link in the webapp.
 
 (making easy to comfirm information, foster analytical thinking and getting used to citing - not a videly-pratcices thing everywhere. Hopefully, will develop a habit of cross-checking information, a crucial skill in diverse cultural environments)
+
+**Note:** not worried as much about scoping because as part of proof concept can convert mp4 to mp3 to get only audio, then do speech-to-text to get only text, and then use an LLM to get resources supporting the information: [chatgpt conversation to demo last step: can see which sites were searched by the model](https://chatgpt.com/share/66f6ce97-c2ac-8000-942e-96606dd50447). Assuming for POC we don't need a perfect prompt and model can be improved in the future.
 
 #### 5
 
@@ -78,9 +80,9 @@ userInfo: `used` -> **one** `<String, Boolean>`
 **State:**  
 `allContent`: `content` Content
 `contentLabels`: `content` Content -> `labels` set String  
-`contentViewers`: `content` Content -> `User` set String
+`contentViewers`: `content` Content -> `User` set String  
 **Actions:**  
-`refresh(preferences: set String, out content: set Content)` -- suggest content based on preferences
+`refresh(preferences: set String, out content: set Content)` — suggest content based on preferences
 
 #### 6
 
@@ -92,11 +94,11 @@ userInfo: `used` -> **one** `<String, Boolean>`
 `confirmed`: `item` -> set User  
 `CredibiltyScores`: `item` Item -> **one** Number  
 **Actions:**  
-`flag(item: Item, comment: String, rating: Number, user: User, out score: Number)` -- Flag an item (if not reported previously by the user). Scoring of item based on report (rating and item's label) is updated and returned.  
-`confirm(item: Item, user: User, out score: Number)` -- validate accuracy of an item (if not reported previously by the user ). Scoring of item based on validation is updated and returned.  
-`showScore(item: Item, out score: Number)` -- show the credibility score for the Item.  
-`system reward(item: Item, out rewardthing: Thing)` -- Rewards item for high score.
-`system isControversial(item: Item, out controversial: Boolean)` -- checks whether item is controversial by comparing number of users it was reported and confirmed by.
+`flag(item: Item, comment: String, rating: Number, user: User, out score: Number)` — Flag an item (if not reported previously by the user). Scoring of item based on report (rating and item's label) is updated and returned.  
+`confirm(item: Item, user: User, out score: Number)` — validate accuracy of an item (if not reported previously by the user ). Scoring of item based on validation is updated and returned.  
+`showScore(item: Item, out score: Number)` — show the credibility score for the Item.  
+`system reward(item: Item, out rewardthing: Thing)` — Rewards item for high score.
+`system isControversial(item: Item, out controversial: Boolean)` — checks whether item is controversial by comparing number of users it was reported and confirmed by.
 
 (Foster analytical thinking, as a lot of times international students blindly believe a lot of things because is west viewed as "smarter")
 
@@ -106,8 +108,8 @@ userInfo: `used` -> **one** `<String, Boolean>`
 **Purpose**: Foster critical thinking by allowing users to view opposing perspectives on controversial topics  
 **Operational Principle**: When a user searches for or views a potentially polarizing subject, the app shows two types of content with contrasting views, displayed next to each other.  
 **Actions**:  
-`getNext(currentContent: Item, out nextContent: Item)` --> Get related content with an opposing view to the `currentContent`
-`system getOpposite(label: String, out oppositeLabel: String)` --> Finds the opposite label or perspective for the label.
+`getNext(currentContent: Item, out nextContent: Item)` —> Get related content with an opposing view to the `currentContent`
+`system getOpposite(label: String, out oppositeLabel: String)` —> Finds the opposite label or perspective for the label.
 
 (important to get different views especially in countries that are more polarized)
 
@@ -169,7 +171,7 @@ app TrueTide
 (look at the wireframe to learn a bit more on how it may end up looking)  
 There are more that can be added but it's hard to explain without user interaction (because users affect each other and each other's content through the concepts above - and sometimes after multiple iterations (also adding everything would probably mean I have an almost working code :sweat_smile:))
 
-<!--  If a post receives a low credibility score, users could be prompted to either review the citations or add more sources to strengthen the content -->
+<!-- If a post receives a low credibility score, users could be prompted to either review the citations or add more sources to strengthen the content -->
 
 ### Dependency diagram
 
