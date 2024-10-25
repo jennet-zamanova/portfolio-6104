@@ -60,7 +60,14 @@ TrueTide’s language should remain simple and culturally neutral, catering to i
 
 In the wireframe, I used `upload` for making posts. For better consistency with other social media apps, `create` might be a more intuitive term. Similarly, `prefernces` would now become `categories` dropdown showing the selected category to view positioned at the top center of the screen - this could help users understand that the content displayed depends on their selection (this case also reinforces the fact that I should not use dropdown for citation links for the sake of consistency). Lastly, structuring the video playback to mimic Instagram's familiar style - where one video plays twice and prompts for replay - by having layback where one video plays, stops, and then the next plays before prompting the user to replay can help create a sense of familiarity while reinforcing the dual-view concept.
 
+## Visual Design Study
+
+Thoughts on colors: ![collage for colors](/../assets/images/a5/colors.png)
+
+Thoughts on fonts: ![collage for fonts](/../assets/images/a5/fonts.png)
+
 # Notes on code submission
+
 I spent a lot of time trying to let users upload files to only find out it is impossible, I still left it as is and added more things to the actual posting part
 
 Here are the links to the deployed version:
