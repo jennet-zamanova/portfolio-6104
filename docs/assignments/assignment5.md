@@ -66,9 +66,21 @@ Thoughts on colors: ![collage for colors](/../assets/images/a5/colors.png)
 
 Thoughts on fonts: ![collage for fonts](/../assets/images/a5/fonts.png)
 
+## Notes on differences from above
+
+I decided not to implement the Instagram's playback style because these videos can contain all sorts of content that users may not want just playing out of nowhere when they open the app.
+I also decided to not have a separate button for `Home` as it was in the initial code because users are more used to the fact clicking on app name/logo achieves the same thing. And when there is a separate home page it leads to think that there are multiple feed pages which I do not have.
+
 # Notes on code submission
 
-I spent a lot of time trying to let users upload files to only find out it is impossible, I still left it as is and added more things to the actual posting part
+When Uploading please submit the youtube link that has embed in it (I only check for it to be a valid link and that
+it's from youtube but embed would be too hard to explain to an average user and I would prefer the user to upload a file anyway).
+
+For categories, the ones that are available are the ones that have posts in them. Note: there is no way for graders to know what category a post belongs to reliably because that is all handled in the backend (and if llm performs poorly - only Gemini is free so it probably will - it gets assigned to all).
+If you made a post, the only way for you to reliably check that is though going to your posts. If there are odd number of posts in a given category, one of them for sure will not show up, because I'm pairing posts.
+
+If you get error related to Gemini, we probably reached the token limit (even more likely the request number limit😔). This can happen when you upload a post and when you view posts on the homepage.
+Since I'm not willing to spend money on this class, please reach out to me and test again the next day (I will try not to do anything LLM related that day, so you are less likely to reach the limit again)
 
 Here are the links to the deployed version:
 [truetide-frontend.vercel.app](https://truetide-frontend.vercel.app/)
