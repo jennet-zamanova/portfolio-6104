@@ -81,8 +81,13 @@ If you made a post, the only way for you to reliably check that is though going 
 
 If you get error related to Gemini, we probably reached the token limit (even more likely the request number limit😔). This can happen when you upload a post and when you view posts on the homepage.
 Since I'm not willing to spend money on this class, please reach out to me and test again the next day (I will try not to do anything LLM related that day, so you are less likely to reach the limit again)
+To somewhat make the user feel better I added a link to go to page that would have just posts: unpaired, unprocessed.
 
-Here are the links to the deployed version:
-[truetide-frontend.vercel.app](https://truetide-frontend.vercel.app/)
-[https://truetide-frontend-jennets-projects-b71c0174.vercel.app/](https://truetide-frontend-jennets-projects-b71c0174.vercel.app/)
-[https://truetide-frontend-git-main-jennets-projects-b71c0174.vercel.app/](https://truetide-frontend-git-main-jennets-projects-b71c0174.vercel.app/)
+Here are the links to the deployed version:  
+[https://truetide-frontend.vercel.app/](https://truetide-frontend.vercel.app/)  
+
+[https://truetide-frontend-jennets-projects-b71c0174.vercel.app/](https://truetide-frontend-jennets-projects-b71c0174.vercel.app/)  
+
+[https://truetide-frontend-git-main-jennets-projects-b71c0174.vercel.app/](https://truetide-frontend-git-main-jennets-projects-b71c0174.vercel.app/)  
+
+P.S. if you are wondering whether it's even possible to reach the limit, YUP it is: I did today so last changes were not fully tested in deployment - let's hope it doesn't crash (if it does: one more reason to stop using vercel) 
