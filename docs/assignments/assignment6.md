@@ -5,6 +5,8 @@ layout: doc
 
 # A6
 
+## Task List
+
 Here is the list of tasks I gave:
 
 |          Title           |                                                   Description                                                   |                                                                                                                                                                                                             Rationale                                                                                                                                                                                                              |
@@ -19,10 +21,6 @@ Here is the list of tasks I gave:
 ## Reports
 
 ### User 1
-
-<!-- My first participant is my friend from back home, so she is actually in the target audience. I decided to test with her because I knew she would bash on any design I give her and will be super honest. The first couple of tasks felt very straightforward for her. Though she felt like logging in immediately after registration without prompting the user to login was unsafe. Mainly this is because she got used to all other software services/social media to prompt her to verify something and logging in manually.
-I do not think that this is necessarily a bad thing especially since this could change in the future with the addition of safer logging in practicies/services used (though it was interesting to see a non-computer programmer's view/association of safety with re-logging in). On the second task, she could immediately tell that she needs to go to try to filter according to categories. However, the dropdown didn't react unless `show posts` was clicked which confused her for a second but she did not voice since she figured it out very fast. When I asked her in debrief whether she found it confusing, she said "yeah, I thought it would just react, but I get it - it was probably hard for you to implement". On the next task, she knew immediately to find political related posts but she could not tell what I meant by supporting evidence. I think the fact that I had post where default frame was same for both posts did not help. But she could not tell the difference between the two and hashtags did not help. When I later asked whether she could tell that posts are paired, she told me that she could not tell the color difference and did not notice the "VS" label at all. Moreover, when I asked her about links, she told me that she noticed them but did not want to click because of how nowadays people tell not to click on links in emails due to security. Even though she was testing from my laptop and new that I provided the data she still did not feel comfortable clicking on links and completely ignored them.
-When it came to uploading the post it want smoothly for the most part, except she thought that these hashtags would correspond exactly to instagram hashtags and so she was wondering whether she needs to type the hash sign and was confused on why spaces from the hashtags were not removed. Note: She is an avid Instagram user (and I'm clearly not). She also said that she would've prefered to cancel or save her progress during the process of uploading a post. When I asked her whether she thinks there may be something on the screen that would let her do that, her response was "oh is this a button? would it cancel? oh, didn't realize it was a button". So I should be more careful with my neutrals and pay attention to whether they are even visible to everyone. Finally, after uploading she imediately to went to `My Posts` before I even told the next task and said that it would've made more sense if it immedately went to my posts tab when the upload is successful. Finally, she sould tell that clicking on the logo or app name would take her to home screen, so that was clear. -->
 
 My first participant was a friend from back home who represents target audience of TrueTide well. I chose her because I knew her feedback would be honest and direct. Her experience highlighted several important takeaways across all tasks.
 
@@ -46,12 +44,6 @@ Finally, in **Go to All Posts**, she successfully used the logo to return to the
 
 ### User 2
 
-<!-- My second user was also my friend, and while she would not fit into the target audience per say she sould be one of the people posting content for newcomers to see.
-
-She did not express concern about security. In cotrast, she was happy not to have to remember her password. She also could tell immediately the need to search from the dropdown for the second task. However, compared to the first user she did not hesitate before clicking on show posts because it was close to the dropdown. She also noticed the "posts retrieved successfully!" toast and got excited. When it came to finding supporting evidence she also knew to go to the politics category and found the post pretty fast. She was actually more inclined to click on the posts especially because they were youtube videos so it reminded more of clicking on youtube video to see singular post. She paid more attention to hashtags but still was not sure whether that's enough. I gave her more time to "explore" what else the post contains to try to find some supporting evidence. Soon enough she tried clicking on the links and figure out that they are related to the posts in some sense. When asked in debrief whether she could tell the relation in the posts she said it "did not quite", but she could tell that colors are different.
-When it came to uploading post, she could tell that she needs to add the links and hashtags one-by-one (though I had default code for that if they are comma separated). Adding labels made sense. And just to compare with the first user, I asked to cancel here changes on her post and when prompted that way she could tell the cancel button right away. I think this goes on to show that when users are given tasks they understand that this is possible and try to find solutions, while in day-to-day usecase they might think I did not notice in 5 seconds so this feature just does not exist.
-She also immediately wated to see her post and went to my posts. When it came editing, she told me once she saw the previous links and tags displayed one by one she could tell "aha, I was right they needed to be added one by one". Further confirming my suspicions. She got so excited she wanted to see her post among all posts. Unfortunately, there were only odd number of posts so hers did not show up. Once I added another post opposing it and showed her that they did get paired she was very satisfied! Finally she also could tell to go the homepage by clicking on the name of the app! -->
-
 My second user was a friend, and although she wasn’t precisely the target audience, she represents a potential contributor for newcomers’ content. Her experience provided insightful comparisons, especially around ease of use and intuitive navigation.
 
 For **Account Creation**, unlike the first user, she appreciated not needing a password, saying it “felt easier and less stressful.” This response highlighted a potential advantage of simplifying security, as she seemed reassured rather than skeptical about privacy—likely due to her familiarity with similar platforms that streamline access.
@@ -68,41 +60,7 @@ She eagerly wanted to see her post among the others and expressed disappointment
 
 Finally, her intuitive click on the app name to return to the homepage to **Go to All Posts** also reinforces that this navigational cue was effective.
 
-<!-- This comparison highlights a common usability insight: task-focused users often explore options, whereas casual users may need more guided discovery. -->
-
-<!-- When she was uploading the post I realized how far away the add button is. the testers still could tell to click because it looked connected to teh text box and was very bright but it would be reverse to gisdalt principles. However, having it on the left side feels unituitive given other apps -->
-
 ## Opportunities for Improvement
-
-<!-- ### Make the dropdown react on click
-
-This is a minor linguistic flaw that may introduce minor friction like it did for the first user to get posts in a given category. Showing posts in a given category without prompting the user to click on aother button would easily solve this issue.
-
-### Somehow make the links clearer
-
-This is a more critical linguistic issue because both of the users struggled a lot with the links. We need to somehow specify whether a link is confirmed as valid/safe by us so that users like the first do not feel unsafe clicking on them. But a more important issue is to make clear that these links are trying to support the given post. Some things that could be done and would need to be tested again are:
-
-- Add a Label: Insert a small label above the list of links, like “Supporting Evidence” or “Sources,” to clarify their purpose.
-
-- Use Iconography: Add an icon (e.g., a book) next to each link to symbolize that these are resources for verification.
-
-- Different Styling: Style the supporting links differently, such as with italicized text, or a muted color, to make them look more intentional and distinct from general links.
-
-- Hover Tooltip: Add a tooltip on hover with a brief description, like “Click to view supporting evidence.”
-
-### Improve the colors
-
-moderate/major Physical/linguistic
-Since User 1 could not tell the `cancel` button was actually a button and could not differentiate the colors for paired posts, it's important to make sure that the neutral colors are distinct and visible. For example, cancel button can have grey background and white text to still look more nuetral among everything but same style as the other buttons (considering the white text). For the background colors of the posts having more contrasting colors would help to differentiate the pairs.
-
-### Provide defaults/examples
-
-moderate physical
-When it comes to adding the data(hashtags and links) one-by-one, the second test shows us that the default I was planning on (if vercel would let me access videos) would work. Where default is LLM providing suggestions for supporting sources and tags, which would be added in the list as shown below. Moreover, the hint text for the textarea being a dummy link or dummy hastag instead of `Add a Citation` would probably help too.
-
-### Streamline some of the information flow
-
-minor physical flaw. The easiest one is to navigate the user straight to `my posts` as suggested by one of the users and that would be apppreciated despite ot being voiced by the second user. -->
 
 ### Clarify Supporting Links’ Purpose and Safety
 
